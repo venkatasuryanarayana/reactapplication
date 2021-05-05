@@ -1,0 +1,27 @@
+{
+	"details":[
+		{
+			"image":"profile.png",
+		"name":"surya",
+		"email":"surya@gmail.com",
+		"number":"+91-9999999999",
+		"Address":"kakinada"
+	},
+	{
+		"image":"profile.png",
+		"name":"venkat",
+		"email":"venkat@gmail.com",
+		"number":"+91-9888888889",
+		"Address":"Guntur"
+	},
+	{
+		"image":"profile.png",
+		"name":"Narayana",
+		"email":"Narayana@gmail.com",
+		"number":"+91-786543210",
+		"Address":"kadapa"
+	}
+
+]
+
+}

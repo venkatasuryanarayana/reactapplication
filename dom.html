@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<input type="text" id="txtId" name="txtName" class="txtClass">
+		<input type="text" id="txtId2" name="txtName" class="txtClass">
+		<button type="button" name="button" onclick="buttonClick()">submit</button>
+	</form>
+
+</body>
+</html>
+<script type="text/javascript">
+	function buttonClick() {
+		var value = document.getElementsByTagName("input");
+		alert("get length by Tagname"+value.length);
+		
+		for(var i=0;i<value.length;i++){
+			alert("get value by Tagname:"+value[i].value);
+		}
+
+	}
+</script>
